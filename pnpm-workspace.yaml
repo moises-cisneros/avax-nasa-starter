@@ -1,0 +1,13 @@
+packages:
+  - "packages/contracts"
+  - "packages/frontend"
+
+# pnpm blocks postinstall scripts by default; allow only what we need.
+allowBuilds:
+  esbuild: true
+  keccak: true
+
+# Legacy key (pnpm 9/10)
+onlyBuiltDependencies:
+  - esbuild
+  - keccak

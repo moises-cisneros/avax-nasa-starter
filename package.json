@@ -1,0 +1,13 @@
+{
+  "name": "avax-nasa-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter kit: Avalanche Fuji + Core Wallet + NASA data (Field Shift hackathon track)",
+  "scripts": {
+    "dev": "pnpm --filter @avax-nasa/frontend dev",
+    "build": "pnpm --filter @avax-nasa/frontend build",
+    "compile": "pnpm --filter @avax-nasa/contracts compile",
+    "deploy:fuji": "pnpm --filter @avax-nasa/contracts deploy:fuji"
+  },
+  "engines": { "node": ">=18" }
+}

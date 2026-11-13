@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Secrets (NEVER commit private keys)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+packages/contracts/artifacts/
+packages/contracts/cache/
+packages/contracts/typechain-types/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local tooling indexes
+.atl/
+.codegraph/
